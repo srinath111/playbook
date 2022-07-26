@@ -1,0 +1,12 @@
+---
+- name: Inmpementing host scope varasblies
+  hosts: 172.31.6.111
+  tasks:
+    - name: create user
+      user:
+        name: "{{a}}"
+        password: "{{b}}"
+        uid: "{{c}}"
+        home: "{{d}}"
+        shell: "{{e}}"
+...

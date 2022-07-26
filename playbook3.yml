@@ -1,5 +1,5 @@
 - name: Configuring toimcat
-  hosts: all
+  hosts: servers
   tasks:
    - name: Install tomcat9
      apt:

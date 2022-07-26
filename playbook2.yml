@@ -1,6 +1,6 @@
 ---
 - name: Configuring apache2
-  hosts: all
+  hosts: webserver
   tasks:
    - name: Install apache2
      apt:
