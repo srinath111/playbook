@@ -1,0 +1,11 @@
+---
+- name: Create user
+  hosts: all
+  tasks:
+   - name: User creation
+     user:
+      name: srinath
+      password: sri
+      home: /home/ubuntu
+      comment: "A regular "
+...
